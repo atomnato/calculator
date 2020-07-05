@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>калькулятор</title>
+	<link rel="stylesheet" type="text/css" href="/css/normalize.css" >
+	<link rel="stylesheet" type="text/css" href="css/style_new.css">
+	<meta name="viewport" content="width=devic-width, initial-scale=1">
+</head>
+<body>
+<div class="main">
+	<div class="boxstyle header">
+		<h3> Калькулятор</h3>
+	</div>
+	<div id='select' class="boxstyle ">
+		<span> <input type="radio" name="dress" checked> Юбка на резинке</span>
+		<span class="radRight"><input type="radio"  name="dress"> Юбка на молнии</span>
+	</div>
+	<div  id="data" class="st">
+		<span > OB: <input   class="in" type="number" maxlength="10"></span>
+		<span > OT: <input   class="in" type="number" maxlength="10"></span>
+		<span > DL: <input   class="in" type="number" maxlength="10"></span>
+	</div>
+	<div id="increase" class="clearfix">
+		<div class= "img-container1">
+			<input type="text" id="firstval" class="inp">
+			<div style="width:30px; height:30px;"  class="button plus"></div>
+			<div style="width:30px; height:10px;"  class="button minus"></div>
+		</div>
+		<div class= "img-container2">
+			<input type="text" id="secondval" class="inp">
+			<div style="width:30px; height:30px;"  class="button plus"></div>
+			<div style="width:30px; height:10px;"  class="button minus"></div>
+		</div>
+	</div>
+
+	<div class="boxstyle">
+		<button  id="but" >dt</button>
+	</div>
+	<div  class="conteiner" id="conteiner" style="visibility:hidden;">
+		<div id="di" class="d">
+			<object  id="nn" type="image/svg+xml" data="css/img/raz.svg"></object>
+	</div>
+		<div id="right" class="button button-tag"></div>
+		<div id="left"  class="button button-tag"></div>
+
+	</div>
+	<span class="tex">Ширина: <span id="tt" ></span>  м</span>
+</div>
+<script src="js/check_input_new.js"></script>
+<script src="js/calculation_new.js"></script>
+<script src="js/drow_new.js"></script>
+<script src="js/dr_new.js"></script>
+<script src="js/drowMonth_new.js"></script>
+<script src="js/drMonth_new.js"></script>
+<script src="js/wig_new.js"></script>
+</body >
+
+

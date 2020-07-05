@@ -1,0 +1,15 @@
+<svg id="sv" style="background:yellow;"   height="150"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <defs>
+        <g id="copy">
+            <path id="pathOne" stroke="black" stroke-width="1" fill="none"/>
+            <path id="pathTwo" stroke="black" stroke-width="1" fill="none"/>
+        </g>
+
+        <g id="copyM">
+            <path id="pathOneM" stroke="black" stroke-width="1" fill="none"/>
+            <path id="pathTwoM" stroke="black" stroke-width="1" fill="none"/>
+        </g>
+    </defs>
+
+</svg>

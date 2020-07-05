@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+.main {
+	width: 100%;
+	max-width: 1000px;
+	background:#43de98;
+}
+
+
+.main .header {
+	word-wrap:break-word;
+	border-bottom: 1px solid black;
+	text-align:center;
+}
+
+.boxstyle {
+	padding: 5px;
+
+}
+
+.clearfix::before, .clearfix::after {
+	content:"";
+	display:table;
+}
+
+.clearfix::after {
+	clear: both;
+}
+
+.img-container1 {
+	margin: 0 5px 5px;
+	background-color:azure;
+	max-width:200px;
+	width: 100%;
+	height:235px;
+	background-position: center;
+	background-repeat:no-repeat;
+	float: left;
+	position:relative;
+
+
+}
+.img-container2 {
+	margin: 0 50px ;
+	background-color: azure;
+	background-image: url('img/2part.png');
+	width: 200px;
+	height:235px;
+	background-position: center;
+	background-repeat: no-repeat;
+	float: left;
+	position:relative;
+
+}
+
+.img-container3 {
+	background-color: azure;
+	width:  385px;
+	float: left;
+	height: 475px;
+
+}
+.in {
+	margin-right:30px;
+	width: 100px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.st {
+	margin: 5px 5px;
+}
+
+.sp {
+	padding-right: 5px;
+}
+
+.radRight {
+	padding-left: 30px;
+}
+.alert {
+	margin-top: 5px;
+	width: inherit;
+	background-color:rgba(255, 23, 47, 0.71);
+	padding: 3em 0;
+}
+
+
+.button {
+	user-select:none;
+	position:absolute;
+}
+.plus {
+	background: url('img/кнопка_сайт.png')  center no-repeat;
+	right:5px;
+	bottom: 5px;
+}
+
+.minus {
+	background: url('img/минус_сайт.png')  center no-repeat;
+	right:105px;
+	bottom: 15px;
+}
+
+.button-tag {
+	width:50px;
+	height:50px;
+	top:50%;
+	margin-top:-25px;
+	opacity:0.5;
+}
+.button-tag {
+	opacity:1;
+}
+
+#left {
+	left:0;
+	background:url('img/стрелка.png') center;
+	background-size:contain;
+	transform:rotate(180deg);
+}
+
+#right {
+	right:0;
+	background:url('img/стрелка.png') center;
+	background-size:contain;
+}
+
+.d {
+	overflow:hidden;
+	width:1170px;
+}
+
+.conteiner {
+	user-select:none;
+	width:1170px;
+	height:150px;
+	position:relative;
+}
+
+.inp {
+	text-align:center;
+	height:30px;
+	width:60px;
+	position: absolute;
+	right:40px;
+	bottom: 5px;
+	cursor:default;
+}
+
+.tex {
+	font-size: 40px;
+	width:180px;
+	bottom: -3px;
+	margin:0 auto;
+}
